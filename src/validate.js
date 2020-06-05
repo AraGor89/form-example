@@ -13,8 +13,8 @@ const validate = (values) => {
   } else if (!isValidEmail(values.email)) {
     errors.email = "is Invalid";
   }
-  if (!values.province) {
-    errors.province = "is Required";
+  if (!values.country) {
+    errors.country = "is Required";
   }
   return errors;
 };

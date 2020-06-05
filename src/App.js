@@ -8,7 +8,12 @@ const alertData = (values) => {
   }, 1000);
 };
 function App(props) {
-  return <DemoForm alertData={alertData} />;
+  return (
+    <div>
+      <h1>Just an example of form validation</h1>
+      <DemoForm alertData={alertData} />
+    </div>
+  );
 }
 
 export default App;
